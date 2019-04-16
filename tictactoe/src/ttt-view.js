@@ -64,7 +64,6 @@ class View {
       $square.attr("id", "square");
       $square.addClass("unmarked");
       $square.data("pos", [Math.floor(i / 3), i % 3]);
-      console.log($square.data("pos"));
       $ul.append($square);
     }
     this.$el.append($ul);
