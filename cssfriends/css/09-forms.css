@@ -1,0 +1,41 @@
+/* PHASE 9: Forms */
+
+.content-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-main .thumb {
+  
+}
+
+
+
+.wall-post {
+  width: 500px;
+  height: 350px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  background-color: lightgray;
+  float: right;
+}
+
+.wall-post .input {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.wall-post .input input, textarea {
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px;
+  background: white;
+}
+
+.wall-post .submit {
+  padding: 20px;
+}
