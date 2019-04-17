@@ -1,0 +1,49 @@
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li.stack {
+  border-bottom: 5px solid black;
+  width: 150px;
+  height: 200px;
+  padding: 5px;
+  margin: 5px;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+}
+
+li:hover {
+  border-bottom-color: blue;
+}
+
+li.selected {
+  border-bottom-color: red;
+}
+
+.disk-1, .disk-2, .disk-3 {
+  background-color: green;
+  border-radius: 20px;
+  height: 50px;
+  margin: 5px;
+}
+
+.disk-1 {
+  width: 33%;
+}
+
+.disk-2 {
+  width: 66%;
+}
+
+.disk-3 {
+  width: 100%;
+}
